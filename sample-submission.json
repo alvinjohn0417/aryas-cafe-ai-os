@@ -1,0 +1,15 @@
+{
+  "event_type": "submission",
+  "form_id": "YOUR_YOUFORM_SLUG",
+  "submission_id": "sample-booking-01",
+  "fields": [
+    {"question":"Reservation date","answer":"NEXT_TEST_DATE"},
+    {"question":"Arrival time","answer":"6:00"},
+    {"question":"AM or PM","answer":"PM"},
+    {"question":"Number of guests","answer":"3"},
+    {"question":"Guest name","answer":"Sample Guest"},
+    {"question":"Mobile number","answer":"09123456789"},
+    {"question":"Email address","answer":"guest@example.test"},
+    {"question":"booking_ref","type":"hidden","answer":"0123456789abcdef0123456789abcdef0123456789abcdef"}
+  ]
+}
