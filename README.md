@@ -2,6 +2,14 @@
 
 An n8n pilot for a café using Messenger. Ask for hours or directions, request menu images, or request a table. The bot replies in English or natural Taglish. A reservation is pending until staff approve it.
 
+## Workflow overview
+
+The n8n workflow handles Messenger inquiries and menu requests, processes Youform reservation submissions, and sends confirmations after staff approval.
+
+[![Arya’s Cafe n8n workflow showing Messenger routing, reservation processing, and staff approval](./Aryas_Cafe_Workflow_screenshot.png)](./Aryas_Cafe_Workflow_screenshot.png)
+
+*Click the screenshot to open it at full size and read the node labels.*
+
 ## Setup in three steps
 
 1. **Prepare the accounts and data.** Use an n8n workspace, a Meta Page and app with Messenger access, a Groq credential, and Google Docs, Sheets, Gmail, and Calendar credentials. Create an approved customer knowledge Doc and a workbook using the headers below. Create a Youform reservation form with a hidden `booking_ref` URL field and required questions labeled exactly `Number of guests`, `Guest name`, `Mobile number`, `Email address`, `Reservation date`, `Arrival time`, and `AM or PM`. Use a Date field and separate 12-hour time and AM/PM dropdowns. Upload the menu images as reusable Messenger attachments for your Page.
